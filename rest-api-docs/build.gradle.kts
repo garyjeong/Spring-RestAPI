@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+	implementation("com.oracle.database.jdbc:ojdbc11:21.8.0.0")
 	implementation("org.springframework.boot:spring-boot-starter-jdbc")
 	implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3")
 	compileOnly("org.projectlombok:lombok")

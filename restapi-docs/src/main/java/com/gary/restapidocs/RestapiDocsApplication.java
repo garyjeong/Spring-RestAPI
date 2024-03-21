@@ -1,13 +1,13 @@
-package com.gary.docs;
+package com.gary.restapidocs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DocsApplication {
+public class RestapiDocsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DocsApplication.class, args);
+		SpringApplication.run(RestapiDocsApplication.class, args);
 	}
 
 }
